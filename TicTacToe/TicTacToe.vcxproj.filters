@@ -21,6 +21,9 @@
     <ClCompile Include="playground_model.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="playground_view.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="playground_model.h">
@@ -29,5 +32,13 @@
     <ClInclude Include="tictactoe_utils.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="playground_view.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="fieldTemplate.txt">
+      <Filter>Ressourcendateien</Filter>
+    </Text>
   </ItemGroup>
 </Project>

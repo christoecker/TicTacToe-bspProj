@@ -141,10 +141,15 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="playground_model.cpp" />
+    <ClCompile Include="playground_view.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="playground_model.h" />
+    <ClInclude Include="playground_view.h" />
     <ClInclude Include="tictactoe_utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="fieldTemplate.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

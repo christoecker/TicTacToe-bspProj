@@ -47,3 +47,12 @@ field_state playground_model::get_entry(int x, int y)
 	}
 	return field_state::access_error;
 }
+
+field_state playground_model::get_entry(int num)
+{
+	if (num >= 1 && num <= 9) {
+		num--;
+		return field[num / 3][num % 3];
+	}
+	return field_state();
+}
