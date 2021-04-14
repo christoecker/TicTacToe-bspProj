@@ -35,6 +35,21 @@ bool playground_model::make_entry(int x, int y, field_state s)
 	return false;
 }
 
+bool playground_model::make_entry(int f, field_state s)
+{
+	if (f < 1 || f > 9) return false;
+	if (s == field_state::empty || field_capacity == 0) return false;
+
+	int x = (f - 1) / 3;
+	int y = (f - 1) % 3;
+	if (field[x][y] == field_state::empty) {
+		field[x][y] = s;
+		field_capacity--;
+		return true;
+	}
+	return false;
+}
+
 int playground_model::get_field_capacity()
 {
 	return field_capacity;

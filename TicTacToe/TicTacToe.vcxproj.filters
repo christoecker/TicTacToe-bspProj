@@ -24,6 +24,12 @@
     <ClCompile Include="playground_view.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="game_controller.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="playground_model.h">
@@ -33,6 +39,12 @@
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="playground_view.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="game_controller.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

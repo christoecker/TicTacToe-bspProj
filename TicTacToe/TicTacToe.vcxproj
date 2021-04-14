@@ -139,11 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="game_controller.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="player.cpp" />
     <ClCompile Include="playground_model.cpp" />
     <ClCompile Include="playground_view.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="game_controller.h" />
+    <ClInclude Include="player.h" />
     <ClInclude Include="playground_model.h" />
     <ClInclude Include="playground_view.h" />
     <ClInclude Include="tictactoe_utils.h" />
