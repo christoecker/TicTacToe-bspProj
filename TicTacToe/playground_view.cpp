@@ -8,7 +8,7 @@ void playground_view::show_field()
 		char c;
 		while ((c = f.get()) != EOF) {
 			if (c >= 49 && c <= 57) {
-				field_state s = pg_model.get_entry(c - 48);
+				field_state s = pg_model->get_entry(c - 48);
 				switch (s) {
 				case field_state::empty: std::putc(c, stdout); break;
 				case field_state::player1: std::putc(p1, stdout); break;
